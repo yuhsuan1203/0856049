@@ -6,4 +6,4 @@ jdk:
 addons:
   apt:
     packages:
-    - junit5
+    - junit5.4.2
