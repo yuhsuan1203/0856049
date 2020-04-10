@@ -4,6 +4,5 @@ jdk:
   - oraclejdk13
 
 script:
-  - mkdir out
-  - javac -d out -cp out:junit-platform-console-standalone-1.4.2.jar PriorityQueueTest.java
-  - java -jar junit-platform-console-standalone-1.4.2.jar -cp out --scan-class-path
+  - javac -cp junit-platform-console-standalone-1.4.2.jar PriorityQueueTest.java
+  - java -jar junit-platform-console-standalone-1.4.2.jar -cp . --scan-class-pat
