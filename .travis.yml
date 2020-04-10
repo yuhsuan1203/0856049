@@ -2,3 +2,6 @@ language: java
 
 jdk:
   - oraclejdk13
+
+script:
+  java -jar junit-platform-console-standalone-1.4.2.jar -classpath "lib/junit-jupiter-5.4.2.jar:lib/junit-jupiter-api-5.4.2.jar:lib/junit-jupiter-params-5.4.2.jar:lib/junit-jupiter-engine-5.4.2.jar" -c PriorityQueueTest
