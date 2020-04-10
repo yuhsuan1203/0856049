@@ -6,4 +6,4 @@ jdk:
 script:
   - mkdir out
   - javac -d out -cp out:junit-platform-console-standalone-1.4.2.jar PriorityQueueTest.java
-  - java -jar junit-platform-console-standalone-1.4.2.jar -cp out "lib/junit-jupiter-5.4.2.jar:lib/junit-jupiter-api-5.4.2.jar:lib/junit-jupiter-params-5.4.2.jar:lib/junit-jupiter-engine-5.4.2.jar" --scan-class-path
+  - java -jar junit-platform-console-standalone-1.4.2.jar -cp out --scan-class-path
