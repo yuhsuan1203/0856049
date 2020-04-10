@@ -2,8 +2,3 @@ language: java
 
 jdk:
   - oraclejdk13
-
-addons:
-  apt:
-    packages:
-    - junit5.4.2
