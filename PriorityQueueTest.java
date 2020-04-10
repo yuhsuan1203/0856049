@@ -108,7 +108,7 @@ public class PriorityQueueTest {
                 arguments(Arrays.asList(15, 88, 123, 1024, 65536, 999999),
                           Arrays.asList(1024, 65536, 123, 15, 999999, 88),
                           Integer.class,
-                          0),
+                          1),
                 arguments(Arrays.asList("and", "ans", "ant", "back", "can", "cap", "car", "cat"),
                           Arrays.asList("car", "cap", "ant", "cat", "and", "can", "back", "ans"),
                           String.class,
